@@ -1,0 +1,36 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #ccc;
+}
+
+/* Kontainer flipbook */
+#flipbook {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Setiap halaman */
+.page {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow-y: auto;
+}
+
+/* Konten halaman */
+.content {
+  width: 100%;
+  height: 100%;
+}
